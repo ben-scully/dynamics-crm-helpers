@@ -1,4 +1,4 @@
-# dynamics-crm-helpers
+# Dynamics CRM Helpers
 Helper functions, methods, packages to make Dynamics CRM Development faster to code, more accurate, faster to deploy.
 
 ## Current Problems
