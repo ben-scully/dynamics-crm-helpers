@@ -10,3 +10,4 @@ Helper functions, methods, packages to make Dynamics CRM Development faster to c
 
 ## Wants
 - Retrieve Settings, other records etc
+- Don't use namespaces which clash with basic CRM Entities etc
