@@ -13,4 +13,4 @@ Helper functions, methods, packages to make Dynamics CRM Development faster to c
 - Don't use namespaces which clash with basic CRM Entities etc
 
 ## Gotchas
-- Using JS to set EntityRegs on lookups: Triggers onChange if Guid is LowerCase or missing {} brackets. i.e. Guid needs to be in format "{cb37-....-k2mm}".
+- Using JS to set EntityRegs on lookups: Triggers onChange if Guid is LowerCase or missing {} brackets. This is bad because you'll unexpectantly trigger onchange once Record is saved because sever will change it to uppercase (post save). i.e. Guid needs to be in format "{CB37-....-F2EE}".
