@@ -11,3 +11,6 @@ Helper functions, methods, packages to make Dynamics CRM Development faster to c
 ## Wants
 - Retrieve Settings, other records etc (CRM.Repository... tinyIoC)
 - Don't use namespaces which clash with basic CRM Entities etc
+
+## Gotchas
+- Using JS to set EntityRegs on lookups: Triggers onChange if Guid is LowerCase or missing {} brackets. i.e. Guid needs to be in format "{cb37-....-k2mm}".
