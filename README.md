@@ -11,6 +11,9 @@ Helper functions, methods, packages to make Dynamics CRM Development faster to c
 ## Wants
 - Retrieve Settings, other records etc (CRM.Repository... tinyIoC)
 - Don't use namespaces which clash with basic CRM Entities etc
+- JSON Schema of CRM Solution Entities
+- More information back grom image.GetAttributes<OptionSet>("field") i.e. throw errors if OptionSet vs "field" is the wrong type.
+- Update hidden fields (aka not on the form) via JS [or not JS if there is a better way]
 
 ## Gotchas
 - Using JS to set EntityRefs on lookups: Triggers onChange if Guid is LowerCase or missing {} brackets. This is bad because you'll unexpectedly trigger on-change once Record is saved because sever will change it to uppercase (post save). i.e. Guid needs to be in format "{CB37-........-........-......-F2EE}". - found by Ben Hormann
