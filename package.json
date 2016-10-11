@@ -1,0 +1,20 @@
+{
+  "name": "dynamics-crm-helpers",
+  "version": "1.0.0",
+  "description": "Helper functions, methods, packages to make Dynamics CRM Development faster to code, more accurate, faster to deploy.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ben-scully/dynamics-crm-helpers.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ben-scully/dynamics-crm-helpers/issues"
+  },
+  "homepage": "https://github.com/ben-scully/dynamics-crm-helpers#readme"
+}
