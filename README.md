@@ -17,3 +17,11 @@ Helper functions, methods, packages to make Dynamics CRM Development faster to c
 
 ## Gotchas
 - Using JS to set EntityRefs on lookups: Triggers onChange if Guid is LowerCase or missing {} brackets. This is bad because you'll unexpectedly trigger on-change once Record is saved because sever will change it to uppercase (post save). i.e. Guid needs to be in format "{CB37-........-........-......-F2EE}". - found by Ben Hormann
+
+
+## Resources (to reference or download)
+- NPM xrm-webapi https://www.npmjs.com/package/xrm-webapi
+- XrmDefinitelyTyped 
+..- https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/xrm
+..- https://www.nuget.org/packages/xrm.TypeScript.DefinitelyTyped/
+..- https://www.npmjs.com/package/@types/xrm 
