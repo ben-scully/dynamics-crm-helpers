@@ -21,7 +21,7 @@ and limitations under the License.
 ***************************************************************************** */
 
 /// <reference path="./jquery.d.ts" />
-/// <reference path="../node_modules\@types\xrm\index.d.ts" />
+/// <reference path="../XrmDefinitelyTyped\xrm.d.ts" />
 
 
 module Fakes {
