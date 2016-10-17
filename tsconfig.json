@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "sourceMap": true
+    },
+
+    "files": [
+        "xrm-8.0.d.ts",
+        "js-utils.ts",
+        "js-utils.1.ts",
+        "js-utils.2.ts"
+    ]
+}
