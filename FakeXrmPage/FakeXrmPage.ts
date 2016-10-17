@@ -20,8 +20,8 @@ See the Apache Version 2.0 License for specific language governing permissions
 and limitations under the License.
 ***************************************************************************** */
 
-/// <reference path="./jquery.d.ts" />
-/// <reference path="../XrmDefinitelyTyped\xrm.d.ts" />
+/// <reference path="../typings/jquery/jquery.d.ts" />
+/// <reference path="../typings/xrmpage/xrm.d.ts" />
 
 
 module Fakes {

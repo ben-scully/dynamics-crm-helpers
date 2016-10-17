@@ -1094,6 +1094,9 @@ declare namespace Xrm
              */
             getUserPrivilege(): Privilege;
 
+            // getValue(): any;
+            // getValue<T>(): T;
+
             /**
              * Removes the handler from the "on change" event.
              *
@@ -1217,6 +1220,8 @@ declare namespace Xrm
              * @remarks Valid for optionset and boolean attribute types
              */
             getInitialValue(): number | boolean;
+            
+            getValue(): number | boolean;
         }
 
         /**

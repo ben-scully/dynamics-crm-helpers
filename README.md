@@ -17,7 +17,6 @@ Helper functions, methods, packages to make Dynamics CRM Development faster to c
 
 ## Gotchas
 - Using JS to set EntityRefs on lookups: Triggers onChange if Guid is LowerCase or missing {} brackets. This is bad because you'll unexpectedly trigger on-change once Record is saved because sever will change it to uppercase (post save). i.e. Guid needs to be in format "{CB37-........-........-......-F2EE}". - found by Ben Hormann
-<<<<<<< HEAD
 
 
 ## Resources (to reference or download)
@@ -26,6 +25,7 @@ Helper functions, methods, packages to make Dynamics CRM Development faster to c
 ..- https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/xrm
 ..- https://www.nuget.org/packages/xrm.TypeScript.DefinitelyTyped/
 ..- https://www.npmjs.com/package/@types/xrm 
-=======
 - Using jQuery: Loading jQuery as a form library conflicts with Activity Feeds. Details and a solution here [jQuery and jQuery UI with Dynamics CRM 2011 & 2013](https://community.dynamics.com/crm/b/develop1/archive/2013/08/08/jquery-and-jquery-ui-with-dynamics-crm-2011-amp-2013)
->>>>>>> 688cb5705080f122d738e1463b83c647c40cc63a
+
+
+##
