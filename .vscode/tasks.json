@@ -11,24 +11,13 @@
     "suppressTaskName": true,
 
     "tasks": [{
-        "taskName": "Bundle1",
+        "taskName": "Bundle",
         "args": [
-            "--out", "./bin/bundle1.js",
-            "./helpers/js-utils.ts",
-            "./helpers/js-utils.1.ts",
-            "./helpers/js-utils.2.ts"
-        ]
-        // ,"isBuildCommand": true
-    },
-    {
-        "taskName": "Bundle2",
-        "args": [
-            "--out", "./bin/bundle2.js",
-            "./helpers/js-utils.ts",
-            // "./helpers/js-utils.1.ts",
-            "./helpers/js-utils.2.ts",
-            "./scripts/piggies.ts"
-        ]
-        ,"isBuildCommand": true
+            "--out", "./Bundles/bundle.js",
+            "./Entities/Account/account.ts",
+            "./Entities/Case/case.ts",
+            "./Entities/Contact/contact.ts"
+        ],
+        "isBuildCommand": true
     }]
 }
