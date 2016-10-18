@@ -10,14 +10,23 @@
     // "problemMatcher": "$tsc",
     "suppressTaskName": true,
 
-    "tasks": [{
-        "taskName": "Bundle",
-        "args": [
-            "--out", "./Bundles/bundle.js",
-            "./Entities/Account/account.ts",
-            "./Entities/Case/case.ts",
-            "./Entities/Contact/contact.ts"
-        ],
-        "isBuildCommand": true
-    }]
+    "tasks": [
+        {
+            "taskName": "Bundle-all",
+            "args": [
+                "--out", "./Bundles/all-entities.js",
+                "./Entities/all-entities.ts"
+            ],
+            "isBuildCommand": true
+        },
+        {
+            "taskName": "Bundle-all-test",
+            "args": [
+                "--out", "./Bundles/all-entities-test.js",
+                "./Tests/entities-tester.ts",
+                "./Tests/account-test.ts"
+            ],
+            "isTestCommand": true
+        }
+    ]
 }

@@ -72,4 +72,9 @@ module Help {
             throw "Control not on the form: " + attribute;
     }
 
+    function myPrivateHelper (attribute: string) {
+        console.log("you can't see me...");
+    }
+    myPrivateHelper("");
+
 }
