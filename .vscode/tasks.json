@@ -23,8 +23,7 @@
             "taskName": "Bundle-all-test",
             "args": [
                 "--out", "./Bundles/all-entities-test.js",
-                "./Tests/entities-tester.ts",
-                "./Tests/account-test.ts"
+                "./Tests/all-entities-test.ts"
             ],
             "isTestCommand": true
         }

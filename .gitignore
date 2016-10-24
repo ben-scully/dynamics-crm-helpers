@@ -39,3 +39,4 @@ jspm_packages
 # VS Code
 .vscode/
 .bin/
+Bundles/
