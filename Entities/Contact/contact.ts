@@ -1,7 +1,7 @@
-/// <reference path="../Entity-Interface.d.ts" />
 /// <reference path="../../Tools/Helpers/HelpersFields.ts" />
+/// <reference path="../../Tools/Helpers/HelpersAjax.ts" />
 
-namespace Contact {
+module Contact {
     export const onload = (context?: Xrm.Page.EventContext) => {
         console.log("Contact onload");
         bob();

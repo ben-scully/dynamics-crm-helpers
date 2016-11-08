@@ -15,7 +15,7 @@
             "taskName": "Bundle-all",
             "args": [
                 "--out", "./Bundles/all-entities.js",
-                "./Entities/all-entities.ts"
+                "./Entities/build-all-entities.ts"
             ],
             "isBuildCommand": true
         },

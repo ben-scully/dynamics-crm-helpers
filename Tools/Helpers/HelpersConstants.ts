@@ -1,6 +1,6 @@
 /// <reference path="HelperMaster.ts" />
 
-namespace Help {
+module Help {
     export const ContactFields = {
         firstname: "fistname",
         lastname: "lastname",
