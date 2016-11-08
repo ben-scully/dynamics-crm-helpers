@@ -161,7 +161,7 @@ declare namespace Xrm
          * @param   {string}        message         The message.
          * @param   {function()}    onCloseCallback The "OK" callback.
          */
-        alertDialog( message: string, onCloseCallback: () => void ): void;
+        alertDialog( message: string, onCloseCallback?: () => void ): void;
 
         /**
          * Displays a confirmation dialog, with "OK" and "Cancel" buttons.
@@ -170,7 +170,7 @@ declare namespace Xrm
          * @param   {function()}    yesCloseCallback    The "OK" callback.
          * @param   {function()}    noCloseCallback     The "Cancel" callback.
          */
-        confirmDialog( message: string, yesCloseCallback: () => void, noCloseCallback: () => void ): void;
+        confirmDialog( message: string, yesCloseCallback?: () => void, noCloseCallback?: () => void ): void;
 
         /**
          * Query if 'entityType' is an Activity entity.
