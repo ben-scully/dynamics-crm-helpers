@@ -8,6 +8,9 @@ Helper functions, methods, packages to make Dynamics CRM Development faster to c
 - Lack of TypeScript. i.e. hard to move around code with F12 between files and F2 between files.
 - Deploying / checkingin / version control. These are all seperate and easy to mess up and slow. There must be a better way.
 
+## Dev Rules
+- Thou shal not write global variables in Javascript/Typescript.
+
 ## Wants
 - Retrieve Settings, other records etc (CRM.Repository... tinyIoC)
 - Don't use namespaces which clash with basic CRM Entities etc
