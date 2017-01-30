@@ -31,4 +31,15 @@ Helper functions, methods, packages to make Dynamics CRM Development faster to c
 - Using jQuery: Loading jQuery as a form library conflicts with Activity Feeds. Details and a solution here [jQuery and jQuery UI with Dynamics CRM 2011 & 2013](https://community.dynamics.com/crm/b/develop1/archive/2013/08/08/jquery-and-jquery-ui-with-dynamics-crm-2011-amp-2013)
 
 
-##
+## Early Bound
+1. Download CrmToolBox
+CrmToolBox version: v1.2016.10.2 (working) 
+https://github.com/MscrmTools/XrmToolBox/releases/download/v.1.2016.10.2/XrmToolBox.zip
+
+2. Create Project (c# library) in existing Solution
+
+3. Save extracted XrmToolBox in to a new folder in the Project
+
+4. Run the XrmToolBox.exe
+
+5. Use url [example format: ]
