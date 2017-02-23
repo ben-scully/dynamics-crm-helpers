@@ -53,6 +53,6 @@ var orgService = (IOrganizationService)conn.GetCrmService();
 
 connMgr.ReleaseConnection(conn);
 
-KingswaySoft.DynamicsCrmServices
-KingswaySoft.IntergrationToolkit.DynamicsCrm
-System.Runtime.Serialization
+KingswaySoft.DynamicsCrmServices;
+KingswaySoft.IntergrationToolkit.DynamicsCrm;
+System.Runtime.Serialization;
