@@ -60,5 +60,5 @@ System.Runtime.Serialization;
 
 ## VisualStudio shell
 1. Download the VisualStudio2015Shell [https://msdn.microsoft.com/en-us/mt186501.aspx]
-2. Download KingswaySoft []
+2. Download KingswaySoft - make sure it is the PRE 365 version [https://www.kingswaysoft.com/products/ssis-integration-toolkit-for-microsoft-dynamics-365/download/release-archives/crm]
 3. Get some things and put in GAC
