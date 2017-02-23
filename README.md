@@ -43,3 +43,16 @@ https://github.com/MscrmTools/XrmToolBox/releases/download/v.1.2016.10.2/XrmTool
 4. Run the XrmToolBox.exe
 
 5. Use url [example format: ]
+
+
+## Access CRM in SSIS Script
+var connMgr = Connections.Connection;
+var connectionString = (string)connMgr.AcquireConnection(null);
+var conn = new CrmConnection(connectionString);
+var orgService = (IOrganizationService)conn.GetCrmService();
+
+connMgr.ReleaseConnection(conn);
+
+KingswaySoft.DynamicsCrmServices
+KingswaySoft.IntergrationToolkit.DynamicsCrm
+System.Runtime.Serialization
