@@ -56,3 +56,9 @@ connMgr.ReleaseConnection(conn);
 KingswaySoft.DynamicsCrmServices;
 KingswaySoft.IntergrationToolkit.DynamicsCrm;
 System.Runtime.Serialization;
+
+
+## VisualStudio shell
+1. Download the VisualStudio2015Shell [https://msdn.microsoft.com/en-us/mt186501.aspx]
+2. Download KingswaySoft []
+3. Get some things and put in GAC
