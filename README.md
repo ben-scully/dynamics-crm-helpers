@@ -53,12 +53,12 @@ var orgService = (IOrganizationService)conn.GetCrmService();
 
 connMgr.ReleaseConnection(conn);
 
-KingswaySoft.DynamicsCrmServices;
-C:\WINDOWS\assembly\GAC_MSIL\KingswaySoft.DynamicsCrmServices\1.0.0.0__705df8e0751bcea7\KingswaySoft.DynamicsCrmServices.dll
-KingswaySoft.IntergrationToolkit.DynamicsCrm;
-C:\Program Files (x86)\Microsoft SQL Server\130\DTS\PipelineComponents\KingswaySoft.IntegrationToolkit.DynamicsCrm.dll
-System.Runtime.Serialization;
-
+- KingswaySoft.DynamicsCrmServices;
+..- C:\WINDOWS\assembly\GAC_MSIL\KingswaySoft.DynamicsCrmServices\1.0.0.0__705df8e0751bcea7\KingswaySoft.DynamicsCrmServices.dll
+- KingswaySoft.IntergrationToolkit.DynamicsCrm;
+..- C:\Program Files (x86)\Microsoft SQL Server\130\DTS\PipelineComponents\KingswaySoft.IntegrationToolkit.DynamicsCrm.dll
+- System.Runtime.Serialization;
+..-Should already exist.
 
 ## VisualStudio shell
 1. Download the VisualStudio2015Shell [https://msdn.microsoft.com/en-us/mt186501.aspx]
