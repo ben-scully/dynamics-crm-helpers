@@ -58,6 +58,25 @@ https://github.com/MscrmTools/XrmToolBox/releases/download/v.1.2016.10.2/XrmTool
 - C:\Program Files (x86)\Microsoft SQL Server\130\DTS\PipelineComponents\KingswaySoft.IntegrationToolkit.DynamicsCrm.dll
 - System.Runtime.Serialization;
 
+public class Connections
+{
+    ScriptComponent ParentComponent;
+
+    public Connections(ScriptComponent Component)
+    {
+        ParentComponent = Component;
+    }
+
+    public IDTSConnectionManager100 Connection
+    {
+        get
+        {
+            return ParentComponent.ComponentMetaData.RuntimeConnectionCollection.GetRuntimeConnectionByName(@"Connection").ConnectionManager;
+        }
+    }
+
+}
+
 ## VisualStudio shell
 1. Download the VisualStudio2015Shell [https://msdn.microsoft.com/en-us/mt186501.aspx]
 2. Download KingswaySoft - make sure it is the PRE 365 version [https://www.kingswaysoft.com/products/ssis-integration-toolkit-for-microsoft-dynamics-365/download/release-archives/crm]
